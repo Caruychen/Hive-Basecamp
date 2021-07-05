@@ -1,0 +1,1 @@
+ifconfig | grep -Po 'ether\s*\K\w{2}(\:\w{2})+'
